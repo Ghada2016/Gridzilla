@@ -50,8 +50,77 @@ header .middle-header ul li a:hover,
 header .middle-header ul li a:focus{
 	color: #e60000
 }
+header .header-bottom {
+	padding-top: 3%
+}
+header .header-bottom .row .col img {
+	width: 350px;
+	height: 150px
+}
+header .header-bottom .row .big img{
+	width: 730px;
+	height: 310px
+}
+header .header-bottom .row{
+	margin-bottom: 1%
+}
+.rectangle{
+	height: 150px;
+	background-color: chartreuse;
+	font-weight: bolder;
+	font-size: 2em;
+	padding-top: 50px;
+	margin-top: 2%
+}
+.rectangle-2{
+	background-color: red;
+	padding: 50px;
+	font-weight: bolder;
+	font-size: 2em
+}
 /*end header*/
 
+/*start portfolio*/
+.portfolio ul li{
+	display: inline-block;
+	
+}
+.portfolio img{
+	width: 100%
+}
+.portfolio ul li a {
+	color: #000;
+	font-weight: bold
+}
+.portfolio ul li:hover,
+.portfolio ul li:focus{
+	color: #e60000;
+	cursor: pointer;
+}
+/*end portfolio*/
+
+/*start footer*/
+footer .s-links ul li{
+	display: inline-block;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px
+}
+footer .s-links ul li:nth-child(1){
+	background-color: aqua;
+}
+footer .s-links ul li:nth-child(2){
+	background-color: orange;
+}
+footer .s-links ul li:nth-child(3){
+	background-color: blue;
+	padding: 5px 10px
+}
+footer .s-links ul li:nth-child(4){
+	background-color: red;
+	padding: 5px 7px
+}
+/*end footer*/
 
 
 
