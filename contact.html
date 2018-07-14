@@ -27,7 +27,7 @@
       <header>
             <!--start container-->
             <div class="container">
-                <div class="header-top">
+                  <div class="header-top">
 					<div class="row">
 						<div class="col-lg-6 ">
 							<div class="logo">
@@ -36,9 +36,9 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="search">
-								<form class="text-right">
-									<input type="search" value="Enter Your Search...">
-									<button><i class="fab fa-sistrix"></i></button>
+								<form class="text-right form-group">
+									<input class="form-control" type="search" value="Enter Your Search...">
+									
 								</form>
 							  </div>
 						</div>
@@ -46,29 +46,70 @@
             </div>
 				<!--Start middle header-->
 				<div class="middle-header">
-					<!--Start navbar-->
-					<ul class="nav">
-						  <li class="nav-item">
-							<a class="nav-link active" href="#">HOME</a>
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+						  <li class="nav-item active">
+							<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="#">ABOUT</a>
+							<a class="nav-link" href="about.html">ABOUT</a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="#">BLOG</a>
-						</li>
-						 <li class="nav-item">
-							<a class="nav-link" href="#">CONTACT</a>
-						</li>
-					</ul>
-					<!--End navbar-->
+							<a class="nav-link" href="blog.html">BLOG</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="contact.html">CONTACT</a>
+						  </li>
+						</ul>
+					  </div>
+					</nav>
 				</div>
 				<!--End middle header-->
-				
           </div>
       <!--End container-->
       </header>
       <!--End Header-->
+
+      <!--start contact-->
+      <section class="contact">
+        <!--start container-->
+          <div class="container">
+            <h1 class="font-weight-bold text-center pt-5">Contact Us. Locate Us. Send Us Your Thoughts &#33;</h1>
+              <p class="text-justify pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Maecenas in magna mollis lectus lacinia mollis.</p>
+              <!--start google map-->
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78358.46917193456!2d-106.57668761138352!3d52.13973911439632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5304f6bf47ed992b%3A0x5049e3295772690!2z2LPYp9iz2YPYp9iq2YjZhtiMINiz2KfYs9mD2KfYqti02YjYp9mG2Iwg2YPZhtiv2Kc!5e0!3m2!1sar!2seg!4v1531403768015" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+              <!--end google map-->
+              <!--start form-->
+              <form class="form-group">
+                <input type="text" placeholder="FIRST NAME">
+                <input type="text" placeholder="LAST NAME">
+                <input type="text" placeholder="EMAIL ADDRESS">
+				<textarea class = "form-control" placeholder="MESSAGE" rows="5"></textarea>
+				<span><i class="fas fa-angle-double-right"></i></span>
+				<input class="font-weight-bold text-capitalize" type="submit" value="submit">
+              </form>
+              <!--end form-->
+              
+
+          
+          
+          
+          
+          </div>
+        <!--end container-->
+      </section>
+      <!--end contact-->
+      
+      
+      
+      
 	  
 	  
 	  
@@ -77,7 +118,7 @@
 		  <!--start container-->
 		  <div class="container">
 		  	<div class="row border-top pt-3">
-		  	<div class="col-lg-6">
+		  	<div class="col-lg-6 col-md-6 col-xs-12">
 			  <div class="s-links pt-4">
 				<ul class="list-unstyled">
 				 	<li class="mr-2"><i class="fab fa-twitter fa-2x"></i></li>
@@ -89,9 +130,11 @@
 				</div>
 			  
 			  </div>
-		  	<div class="col-lg-6 text-right">
-			  	<p class="font-weight-bold ml-5">Best PSD Freebies &#124; info@bestpsdfreebies.com</p>
-				<p>Copyright 2012 Gridzilla Theme www.bestpsdfreebies.com</p>
+		  	<div class="col-lg-6 col-md-6 col-xs-12 text-right">
+				<div class="txt">
+			  		<p class="font-weight-bold">Best PSD Freebies &#124; info@bestpsdfreebies.com</p>
+					<p>Copyright 2012 Gridzilla Theme www.bestpsdfreebies.com</p>
+				</div>
 				</div>
 		  </div>
 		  </div>
@@ -108,8 +151,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 	  <!--mixitup-->
 	  <script src="js/jquery.mixitup.js"></script>
-	  
+      
 	  <!--custom js-->
 	  <script src="js/custom.js"></script>
+      <!--map-->
+      <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
   </body>
 </html>
