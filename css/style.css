@@ -263,15 +263,19 @@ footer .s-links ul li:nth-child(4){
 
 
 /**************************Media Query************************/
-// Small devices (landscape phones, 576px and up)
+
+/*Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px){ 
 	
-	footer .s-links {
+footer .s-links {
 	text-align: center;
+    
 }
  footer .txt{
 	text-align: center;
-	 margin-left: 0
+	 margin-left: 0;
+	 
 }
 
 
